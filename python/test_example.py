@@ -1,6 +1,8 @@
-# Copied from the pytest manual 
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 def function(x):
     return x + 1
 
 def test_answer():
-    assert function(3) == 5
+    assert function(47) == 11
